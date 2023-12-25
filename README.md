@@ -3,4 +3,4 @@ Objective of this program is to command a ROS2 robot to move after receiving but
 
 Reference, https://github.com/ros-planning/navigation2/tree/main/nav2_simple_commander
 
-[![Watch the video](https://img.youtube.com/vi/Ms7um_qXu98/hqdefault.jpg)](https://www.youtube.com/embed/Ms7um_qXu98)
+[![Watch the video](https://img.youtube.com/vi/-BEzVcYh2VA/hqdefault.jpg)](https://www.youtube.com/embed/-BEzVcYh2VA)
