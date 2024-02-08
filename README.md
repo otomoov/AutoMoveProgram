@@ -6,3 +6,8 @@ Reference, https://github.com/ros-planning/navigation2/tree/main/nav2_simple_com
 [![Watch the video](https://img.youtube.com/vi/-BEzVcYh2VA/hqdefault.jpg)](https://www.youtube.com/embed/-BEzVcYh2VA)
 
 ![linorobot2](docs/Otomoov2_Wiring_0.5.5.jpg)
+
+## How to use AutoMoveProgram
+
+    chmod +x /home/oto/Documents/otomoov.py
+    ls /dev/tty*
