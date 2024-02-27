@@ -44,3 +44,39 @@ Navigation / AutoMoveProgram
     sudo adduser yourusername dialout
     ls /dev/tty*
 
+## Setting Initial Pose
+Reference https://github.com/otomoov/AutoMoveProgram/blob/humble/navigation.yaml 
+In the navigation.yaml set these values:
+
+    # custom mod
+    set_initial_pose: true
+    initial_pose:
+      x: -0.0
+      y: -0.0
+      yaw: -0.0
+    # end custom mod
+
+## Setting Minimum Laser Range
+Reference https://github.com/otomoov/AutoMoveProgram/blob/humble/navigation.yaml 
+In the navigation.yaml set these values:
+
+        scan:
+          topic: /scan
+          # min range
+          raytrace_min_range: 0.6
+          obstacle_min_range: 0.6
+          # min range
+          max_obstacle_height: 2.0
+          clearing: True
+          marking: True
+          data_type: "LaserScan"
+        base_scan:
+          topic: /base/scan
+          # min range
+          raytrace_min_range: 0.6
+          obstacle_min_range: 0.6
+          # min range
+          max_obstacle_height: 2.0
+          clearing: True
+          marking: True
+          data_type: "LaserScan"
